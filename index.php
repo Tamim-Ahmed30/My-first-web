@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AymEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        
+        <title>Hospital Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <!-- <link rel="stylesheet" href="style6.css">-->
+        
+</head>
+<body>
+    <div class="header">
+        <a href="Home1.html" class="logo"> <i class="fas fa-heartbeat"></i> medcare.</a>
+        <nav class="navbar">
+            
+                <a href="Home1.html">Home</a>
+                <a href="service1.html">Services</a>
+                <a href="about1.html">About</a>
+                <a href="doctors.html">Doctors</a>
+                <a href="http://localhost/asifprograms/Final%20Website/index.php">Book</a>
+                <a href="#review">Review</a>
+                <a href="#blogs">Blogs</a>
+              
+        </nav>
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+      
+        
+   <!--3 no videa -->
+<!--about-section-design-->
+   
+
+<!--video 4-->
+<!-- doctors section design -->
+
+    
+  
+  
+  <!--video 5-->
+<!-- booking section design -->
+<div class="booking-section">
+    <h1><span style="color:#16A085">book</span> now</h1> 
+    <div class="container">
+    <div class="img">
+      <img src="image/home-img.svg" alt="" />
+    </div>
+    <form action="new.php" method="post">
+      <h1>book appointment</h1>
+      <input type="text" name="name" placeholder="your name" required class="box"  />
+      <input type="tel" name="number" placeholder="your number" required class="box" />
+      <input type="email" name="email" placeholder="your email" required class="box"  />
+      <input type="date" name="date" class="box" required/>
+      <div class="btn">
+      <button><input type="submit" value="book now" required/></button>
+      </div>
+    </form>
+    </div
+  
+  
+  
+
+
+
+<!---footer section design---->
+
+<div class="footer-section">
+    <div class="container">
+        <div class="box">
+            <h3>Quick Links</h3>
+            <div class="icon1">
+                <a href="Home1.html"><i class="fas fa-chevron-right"></i> Home</a>
+                <a href="service1.html"><i class="fas fa-chevron-right"></i> services</a>
+                <a href="about1.html"><i class="fas fa-chevron-right"></i> About</a>
+                <a href="doctors.html"><i class="fas fa-chevron-right"></i> Doctors</a>
+                <a href="http://localhost/asifprograms/Final%20Website/index.php"><i class="fas fa-chevron-right"></i> Book</a>
+                
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>Our Services</h3>
+            <div class="icon1">
+                <a href=""><i class="fas fa-chevron-right"></i> Dental Care</a>
+                <a href=""><i class="fas fa-chevron-right"></i> Message Therapy</a>
+                <a href=""><i class="fas fa-chevron-right"></i> Cardiololy</a>
+                <a href=""><i class="fas fa-chevron-right"></i> Diagnosis</a>
+                <a href=""><i class="fas fa-chevron-right"></i> Ambulance Service</a>
+                
+            </div>
+        </div>
+        
+        <div class="box">
+            <h3>Contact Info</h3>
+            <div class="icon1">
+                <a href=""><i class="fas fa-phone"></i> +123-456-7890</a>
+                <a href=""><i class="fas fa-phone"></i> +111-222-333-444</a>
+                <a href=""><i class="fas fa-envelope"></i> abc@gmail.com</a>
+                <a href=""><i class="fas fa-envelope"></i> dhaka@gmail.com</a>
+                <a href=""><i class="fas fa-map-marker-alt"></i> Nobingar,Savar,Dhaka</a>
+                
+            </div>
+        </div>
+        
+        <div class="box">
+            <h3>Follow Us</h3>
+            <div class="icon1">
+                <a href=""><i class="fa-brands fa-square-facebook"></i> Facebook</a>
+                <a href=""><i class="fab fa-twitter"></i> Twitter</a>
+                <a href=""><i class="fas fa-instagram"></i> Instragram</a>
+                <a href=""><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                <a href=""><i class="fas fa-"></i> Pinterest</a>
+               
+            </div>
+        </div>
+        
+        
+    </div>
+
+</div>
+
+     </div>
+    </body>
+</html>
